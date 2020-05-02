@@ -10,10 +10,10 @@ namespace FileParserTests
 
         private FileHandler _fh;
         private DataParser _dp;
-        private string _csvPath = "C:\\Users\\wesle\\Desktop\\Delegate_Task\\Dip_Delegates_Task\\DataFiles\\data.csv";  // change to appropriate path
-        private string _tsvPath = "C:\\Users\\wesle\\Desktop\\Delegate_Task\\Dip_Delegates_Task\\DataFiles\\data.tsv";  // change to appropriate path
+        private string _csvPath = "C:\\Users\\wesle\\Desktop\\Delegate_Task\\DelegatesTask\\DataFiles\\data.csv";  // change to appropriate path
+        private string _tsvPath = "C:\\Users\\wesle\\Desktop\\Delegate_Task\\DelegatesTask\\DataFiles\\data.tsv";  // change to appropriate path
 
-        private string _writeFile = "C:\\Users\\wesle\\Desktop\\Delegate_Task\\Dip_Delegates_Task\\DataFiles\\dataWrite.txt";  // change to appropriate path
+        private string _writeFile = "C:\\Users\\wesle\\Desktop\\Delegate_Task\\DelegatesTask\\DataFiles\\dataWrite.txt";  // change to appropriate path
        
         private List<List<string>> _data;
 
