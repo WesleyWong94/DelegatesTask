@@ -15,6 +15,21 @@ namespace FileParserTests
 
         private string _writeFile = "C:\\Users\\wesle\\Desktop\\Delegate_Task\\DelegatesTask\\DataFiles\\dataWrite.txt";  // change to appropriate path
        
+        //Directory changed for data.csv data.tsv and dataWrite.txt
+        //Refrain from <spaces> in folder names (use underscores '_' instead)
+        //Test -> Test Explorer to perform Unit Tests
+        //Shift + Right Click -> Open Powershell Here (to immediately go to correct directory)
+        //Git Status
+        //Git Add *
+        //Git Commit -m "comment"
+        //Git Push
+
+        //Git Repository establishment done through Cloning
+        //Git Clone -> Delegates Task to use myself from Anh's Git Repository
+        //log into Git through powershell
+
+        //Asserts are performed to pass Unit Tests
+
         private List<List<string>> _data;
 
         public FileParserTests() {
