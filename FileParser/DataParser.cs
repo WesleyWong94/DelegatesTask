@@ -33,7 +33,8 @@ namespace FileParser {
         /// <returns></returns>
         public List<List<string>> StripQuotes(List<List<string>> data) {
 
-            //solution? replace quotes with empty char and then trim like before
+            //Replace designated char with white space
+            //Followed by trimming the white space
 
             foreach (List<string> trimReplace in data)
             {
