@@ -41,7 +41,7 @@ namespace FileParser
 
             //2. Compiling a string
             string str = "";
-            foreach (List<string> rowJoin in rows)
+            foreach (List<string> rowJoin in rows) //advanced for loop since no need to keep a counter
             {
                 //Joining List of 'rowJoin' in the List of 'rows'
                 str += string.Join(delimeter.ToString(), rowJoin) + "\n";
